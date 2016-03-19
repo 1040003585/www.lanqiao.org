@@ -1,3 +1,6 @@
+/*
+	0(n*log n)+O(n*n*n) 
+*/
 #include<cstdio>
 #include<iostream>
 #include<algorithm>

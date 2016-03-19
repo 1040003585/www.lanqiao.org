@@ -1,3 +1,6 @@
+/*
+	O(n*n*n*n) 
+*/
 #include<cstdio>
 #include<iostream>
 #include<algorithm>
