@@ -1,8 +1,16 @@
+/*
+	Name: Wu_Being
+	Copyright: 
+	Author: 
+	Date: 20-03-16 23:21
+	Description: 2016¿∂«≈±≠ ºÙ÷Ω 
+*/
+
 #include<iostream>
 #include<string>
 #include<cstdio>
 using namespace std;
-int aa[3][4],res=0,d[4][2]={{0,1},{0,-1},{-1,0},{1,0}};
+int aa[3][4],res=0,d[4][2]={{0,1},{-1,0},{1,0},{0,-1}};
 void dfs(int i,int j){
 	if(aa[i][j]==0)return;
 	else{
@@ -45,9 +53,9 @@ int main(){
 		}
 		if(ans==1){
 			res++;
-			//cout<<a1<<" "<<a2<<" "<<a3<<" "<<a4<<endl;
-			//cout<<a5<<" "<<a6<<" "<<a7<<" "<<a8<<endl;
-			//cout<<a9<<" "<<a10<<" "<<a11<<" "<<a12<<endl<<endl;;
+			cout<<a1<<" "<<a2<<" "<<a3<<" "<<a4<<endl;
+			cout<<a5<<" "<<a6<<" "<<a7<<" "<<a8<<endl;
+			cout<<a9<<" "<<a10<<" "<<a11<<" "<<a12<<endl<<endl;;
 		}
 	}
 	cout<<res<<endl;
